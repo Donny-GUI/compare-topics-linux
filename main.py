@@ -92,9 +92,9 @@ def compare(list1, list2):
 
     if first_inward_percent > 100:
         print(f"{red}{argv[1]}{endc} {green}is{endc} {red}{argv[2]}{endc}")
-    elif first_inward_percent > 55:
+    elif first_inward_percent > 70:
         print(f"{red}{argv[1]}{endc} {green}is directly related to{endc} {red}{argv[2]}{endc}")
-    elif first_inward_percent > 45:
+    elif first_inward_percent > 60:
         print(f"{red}{argv[1]}{endc} {green}is strongly related to{endc} {red}{argv[2]}{endc}")
     elif first_inward_percent > 35:
         print(f"{red}{argv[1]}{endc} {green}is kinda related to{endc} {red}{argv[2]}{endc}")
